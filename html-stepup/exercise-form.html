@@ -9,16 +9,32 @@
   <h1>アルバイト応募フォーム</h1>
   <form action="#" method="post">
    <dl>
-    <dt><label for="name">お名前</label></dt>
-    <dd><input id="name" type="text" name="name" required></dd>
-    <dt><label for="email">email</label></dt>
-    <dd><input id="email" type="text" name="email" required></dd>
-    <dt>性別</dt>
+    <dt>
+      <label for="name">お名前</label>
+    </dt>
     <dd>
-      <label><input type="radio" name="gender" value="male" checked>男性</label>
-      <label><input type="radio" name="gender" value="female">女性</label>
+      <input id="name" type="text" name="name" required>
     </dd>
-    <dt><label for="job">現在のご職業</label></dt>
+    <dt>
+      <label for="email">email</label>
+    </dt>
+    <dd>
+      <input id="email" type="text" name="email" required>
+    </dd>
+    <dt>
+      性別
+    </dt>
+    <dd>
+      <label>
+        <input type="radio" name="gender" value="male" checked>男性
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female">女性
+      </label>
+    </dd>
+    <dt>
+      <label for="job">現在のご職業</label>
+    </dt>
     <dd>
       <select id="job" name="job">
         <option value="" selected>選択してください</option>
@@ -28,12 +44,16 @@
       </select>
     </dd>
 
-    <dt><label for="pr">自己PR</label></dt>
+    <dt>
+      <label for="pr">自己PR</label>
+    </dt>
     <dd>
       <textarea id="pr" name="pr"></textarea>
     </dd>
 
-    <dt><label for="privacy">プライバシーポリシーに同意する</label></dt>
+    <dt>
+      <label for="privacy">プライバシーポリシーに同意する</label>
+    </dt>
     <dd>
       <input id="privacy" type="checkbox" name="privacy" value="1">
     </dd>
